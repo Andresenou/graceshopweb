@@ -7,7 +7,7 @@ class ContactPage extends StatelessWidget {
   Future<void> _launchEmail() async {
     final Uri emailUri = Uri(
       scheme: 'mailto',
-      path: 'support@univshop.com',
+      path: 'univshop76@gmail.com',
       queryParameters: {'subject': 'Question sur UNIVSHOP'},
     );
     if (await canLaunchUrl(emailUri)) {

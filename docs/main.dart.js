@@ -61686,7 +61686,7 @@ $S:140}
 B.l1.prototype={
 nH(){var s=0,r=B.L(t.H),q
 var $async$nH=B.M(function(a,b){if(a===1)return B.I(b,r)
-while(true)switch(s){case 0:q=B.M1(null,"support@univshop.com",B.ah(["subject","Question sur UNIVSHOP"],t.N,t.z),"mailto")
+while(true)switch(s){case 0:q=B.M1(null,"univshop76@gmail.com",B.ah(["subject","Question sur UNIVSHOP"],t.N,t.z),"mailto")
 s=5
 return B.T(B.ach(q),$async$nH)
 case 5:s=b?2:4
