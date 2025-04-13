@@ -74,7 +74,6 @@ Nos piliers :
                 content: """
 • Focus marchés niche : artisans locaux, B2B
 • Multilingue (FR/EN/ES) et multi-devises
-• Programme de parrainage récompensé
 • Événements commerciaux virtuels exclusifs
 """,
               ),
@@ -205,7 +204,6 @@ Nos piliers :
                 content: """
                 • Focus marchés niche : artisans locaux, B2B
                 • Multilingue (FR/EN/ES) et multi-devises
-                • Programme de parrainage récompensé
                 • Événements commerciaux virtuels exclusifs
                 """,
               ),

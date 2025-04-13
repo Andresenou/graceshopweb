@@ -17,6 +17,17 @@ class ContactPage extends StatelessWidget {
     }
   }
 
+  Future<void> _launchWhatsApp() async {
+    const phone = '+22946077268';
+    final url = Uri.parse("https://wa.me/$phone");
+
+    if (await canLaunchUrl(url)) {
+      await launchUrl(url);
+    } else {
+      throw "Impossible d'ouvrir WhatsApp";
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -86,9 +97,9 @@ class ContactPage extends StatelessWidget {
                   _buildContactCard(
                     icon: Icons.phone,
                     color: Colors.green,
-                    title: "Téléphone",
+                    title: "Téléphone/WhatsApp",
                     subtitle: "+229 0146077268",
-                    action: () => launchUrl(Uri.parse("tel:+2290146077268")),
+                    action: _launchWhatsApp,
                   ),
 
                   const SizedBox(height: 16),
